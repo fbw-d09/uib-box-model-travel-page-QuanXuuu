@@ -1,0 +1,86 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: lightgray;
+    float: left;
+}
+
+#left
+{
+    width:45.5%;
+    background-color: white;
+    position:absolute;
+    top:40px;
+    bottom: 90px;
+    left: 90px;
+    border: 40px solid white;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    float: left;
+    margin: 40px;
+    position: relative;
+    left:450px;
+    font-size: 1.2em;
+}
+
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover
+{
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+main h1
+{
+    margin-top: 300px;
+    padding: 20px;
+    font-size: 3em;
+}
+
+main p
+{
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+footer
+{
+    background-color: lightgray;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+footer p
+{
+    position: relative;
+    left: 430px;
+}
+
+#right div
+{
+    width: 45.5%;
+    position:absolute;
+    top:40px;
+    bottom: 90px;
+    right: 90px;
+    background-image: url(./images/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
