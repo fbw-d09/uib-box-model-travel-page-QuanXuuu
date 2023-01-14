@@ -10,12 +10,12 @@ body
 
 #left
 {
-    width:44.5%;
+    width:47.2%;
     background-color: white;
     position:absolute;
     top:40px;
-    bottom: 80px;
-    left: 80px;
+    bottom: 60px;
+    left: 40px;
     border: 40px solid white;
 }
 
@@ -23,10 +23,9 @@ nav ul li
 {
     list-style-type: none;
     float: left;
-    margin: 20px 30px;
+    margin: 10px 35px;
     position: relative;
-    left:260px;
-    font-size: 1em;
+    left:300px;
 }
 
 nav ul li a
@@ -35,7 +34,6 @@ nav ul li a
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
-    
 }
 
 nav ul li a:hover
@@ -63,22 +61,22 @@ footer
 {
     background-color: lightgray;
     padding: 10px 0;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 footer p
 {
     position: relative;
-    left: 180px;
+    left: 250px;
 }
 
 #right div
 {
-    width: 44.5%;
+    width: 47.2%;
     position:absolute;
     top:40px;
-    bottom: 80px;
-    right: 80px;
+    bottom: 60px;
+    right: 40px;
     background-image: url(./images/beach.jpg);
     background-size: cover;
     background-repeat: no-repeat;
